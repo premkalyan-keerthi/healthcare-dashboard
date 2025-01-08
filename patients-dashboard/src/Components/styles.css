@@ -1,0 +1,144 @@
+.sidePanelContainer {
+  background: #ffffff;
+  width: 22.5%;
+  height: 100%;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 133px;
+}
+
+.headingBlock {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+}
+
+.searchIcon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.cardBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+}
+
+.cardInner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+  text-align: left;
+  position: relative;
+}
+
+.profileImg {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+.cardName {
+  margin: unset;
+  padding: unset;
+  margin-bottom: 4px;
+}
+
+.moreIcon {
+  width: 18px;
+  height: 4px;
+  object-fit: contain;
+  position: absolute;
+  right: 20px;
+}
+
+.diagBlock {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: 36px;
+  width: 48.5%;
+  margin-top: 133px;
+}
+
+.diagChart{
+    height: 298px;
+    width: 100%;
+}
+
+.highlightCard{
+    width: 30%;
+padding: 12px;
+display: flex;
+flex-direction: column;
+text-align: left;
+border-radius: 12px;
+margin-top: 20px;
+margin-right: 21px;
+}
+
+.highlightImg{
+    width: 96px;
+height: 96px;
+object-fit: contain;
+margin-bottom: 16px;
+}
+
+.respiratoryColor{
+    background-color: #E0F3FA;
+}
+
+.respiratoryColor2{
+    background-color: #FFE6E9;
+}
+
+.respiratoryColor3{
+    background-color: #FFE6F1;
+}
+
+.normalText{
+    font-size: 12px;
+}
+
+.highlightCardsBlock{
+    display: flex;
+}
+
+.rightsidePanelContainer {
+  background: #ffffff;
+  width: 22.5%;
+  height: 100%;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 133px;
+}
+
+.jessica{
+  height:200px;
+  width:200px;
+}
+
+.allInfo{
+  width: 220px;
+height: 41px;
+/* UI Properties */
+background: var(--activestate_bg_1) 0% 0% no-repeat padding-box;
+background: #01F0D0 0% 0% no-repeat padding-box;
+border-radius: 41px;
+opacity: 1;
+}

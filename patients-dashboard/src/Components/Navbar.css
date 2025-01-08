@@ -1,0 +1,120 @@
+/* General Navbar Styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); */
+    border-radius: 70px;
+    font-family: Arial, sans-serif;
+
+    position: fixed;
+    top: 0;
+    width: 95%;
+    z-index: 1;
+    margin-top: 18px;
+  }
+  
+  .navbar-logo .logo-image {
+    height: 40px;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 8px; /* Rounded corners for highlight effect */
+  }
+  
+  .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 8px; /* Spacing between the icon and text */
+    cursor: pointer;
+  }
+  
+  .nav-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .nav-text {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  /* Active Link Style (Highlight the Group) */
+  .nav-item.active {
+    background-color: #01f0d0;
+    color: white;
+  }
+  
+  .nav-item.active .nav-icon {
+    filter: brightness(0) invert(1); /* Adjust the icon color for better visibility */
+  }
+  
+  .nav-item.active .nav-text {
+    font-weight: bold;
+  }
+  
+  /* Doctor Info Section */
+  .doctor-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .doctor-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .doctor-name {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .doctor-name span {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  /* Settings and More Options */
+  .nav-settings {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .nav-settings .nav-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .nav-settings {
+      gap: 10px;
+    }
+  
+    .doctor-name {
+      display: none;
+    }
+  }
+  
